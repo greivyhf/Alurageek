@@ -1,0 +1,38 @@
+.articulo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.articulo__card {
+  width: 164px;
+}
+.articulo__imagen {
+  width: 160px;
+}
+.articulo__titulo {
+  color: #464646;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0.25rem 0;
+  line-height: normal;
+}
+.articulo__precio {
+  color: #464646;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.25rem 0;
+  line-height: normal;
+}
+.articulo__link {
+  color: #2a7ae4;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0.25rem 0;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .articulo__link {
+    font-size: 1rem;
+  }
+}

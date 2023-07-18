@@ -1,0 +1,13 @@
+.contacto {
+  font-family: Raleway;
+}
+.contacto__titulo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #464646;
+}
+@media screen and (min-width: 768px) {
+  .contacto {
+    width: 100%;
+  }
+}

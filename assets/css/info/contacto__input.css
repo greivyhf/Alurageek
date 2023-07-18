@@ -1,0 +1,47 @@
+.contacto__nombre {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+  width: calc(100% - 0.75rem);
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+  border: none;
+  border-radius: 0.25rem;
+  border-bottom: 1px solid #c8c8c8;
+  padding-top: 1.25rem;
+  padding-left: 0.75rem;
+  margin: 0.5rem 0;
+  outline: none; /* Para eliminar bordes de un input que muestra el navegador*/
+}
+.contacto__etiqueta {
+  position: absolute;
+  left: 0.75rem;
+  top: 2.1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+  transition: all 0.3s ease;
+}
+.contacto__nombre:focus + .contacto__etiqueta {
+  margin-top: -20px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+.contacto__nombre:valid + .contacto__etiqueta {
+  margin-top: -20px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+.contacto__nombre:-webkit-autofill,
+.contacto__nombre:-webkit-autofill:hover,
+.contacto__nombre:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 40rem #fff inset;
+}
+.contacto__nombre:-webkit-autofill {
+  -webkit-text-fill-color: #464646;
+  -webkit-background: #ffffff;
+}

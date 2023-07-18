@@ -1,0 +1,12 @@
+.boton {
+  margin-top: 0.5rem;
+}
+.boton__enviar {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #2a7ae4;
+  text-decoration: none;
+}

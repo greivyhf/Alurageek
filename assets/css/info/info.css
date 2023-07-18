@@ -1,0 +1,16 @@
+.info {
+  background-color: #eaf2fd;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    width: calc(100%- 4rem);
+    background-color: #eaf2fd;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+}
