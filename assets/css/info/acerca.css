@@ -33,3 +33,31 @@
     padding: 1rem 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .acerca {
+    width: 100%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+  }
+  .acerca__imagen {
+    display: flex;
+    width: 176px;
+    border-radius: 88px;
+    align-self: flex-start;
+  }
+  .acerca__lista {
+    padding: 1rem;
+  }
+  .acerca__item {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+    justify-content: left;
+    padding: 0.5rem 0;
+  }
+}
