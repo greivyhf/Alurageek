@@ -36,3 +36,11 @@
     font-size: 1rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  .articulo__card {
+    width: 174px;
+  }
+  .articulo__imagen {
+    width: 174px;
+  }
+}

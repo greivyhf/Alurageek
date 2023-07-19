@@ -42,3 +42,11 @@ body {
     padding: 2rem 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .container {
+    margin: 0 8rem;
+  }
+  .seccion {
+    padding: 4rem 0;
+  }
+}
