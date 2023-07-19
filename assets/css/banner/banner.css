@@ -7,7 +7,7 @@
 }
 .banner__fondo {
   width: calc(100% - 2rem);
-  height: 200px;
+  height: calc(200px - 2rem);
   background: linear-gradient(rgba(250, 255, 255, 0) 0%, rgb(0, 0, 0) 100%);
   color: #ffffff;
   display: flex;
@@ -42,7 +42,7 @@
 }
 @media screen and (min-width: 768px) {
   .banner__fondo {
-    height: 350px;
+    height: calc(350px - 4rem);
     padding: 2rem;
     width: calc(100% - 4rem);
   }
@@ -51,5 +51,19 @@
   }
   .banner__descripcion {
     font-size: 1.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner {
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  .banner__fondo {
+    height: calc(350px - 4rem);
+    padding: 2rem;
+    width: calc(100% - 4rem);
+  }
+  .banner__boton {
+    font-size: 1rem;
   }
 }
