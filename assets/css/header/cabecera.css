@@ -74,3 +74,25 @@
     fill-opacity: 0.5;
   }
 }
+@media screen and (min-width: 1440px) {
+  .cabecera__derecha {
+    height: 115px;
+  }
+  .cabecera__izquierda {
+    height: 115px;
+    justify-content: center;
+  }
+  .cabecera__logo {
+    width: 70px;
+    border-radius: 35px;
+  }
+  .cabecera__buscar {
+    width: 392px;
+    font-family: Raleway;
+  }
+  .cabecera__boton {
+    font-size: 1rem;
+    padding: 1rem 4.333rem;
+    font-weight: 400;
+  }
+}
