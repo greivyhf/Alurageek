@@ -1,6 +1,7 @@
 .container__login {
+  font-family: Raleway;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: 6.25rem 0;
 }
