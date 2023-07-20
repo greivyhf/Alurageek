@@ -55,5 +55,11 @@
 @media screen and (min-width: 768px) {
   .login__containerInput {
     width: 261px;
+    margin: 0.25rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .login__containerInput {
+    width: 400px;
   }
 }

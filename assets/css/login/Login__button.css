@@ -11,12 +11,12 @@
   text-decoration: none;
 }
 @media screen and (min-width: 1440px) {
-  .boton {
-    margin-top: 0.75rem;
+  .login__containerBoton {
+    margin-top: 2rem;
   }
-  .boton__enviar {
-    font-size: 1rem;
+  .login__boton {
+    font-size: 1.125rem;
     font-weight: 400;
-    padding: 1rem 1rem;
+    padding: 1rem 11.64rem;
   }
 }
