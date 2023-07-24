@@ -49,6 +49,10 @@
     justify-content: space-between;
     flex-direction: row-reverse;
   }
+  .cabecera__derecha,
+  .cabecera__derecha {
+    height: 75px;
+  }
   .cabecera__derecha--justifyBetween {
     justify-content: space-between;
   }
@@ -90,12 +94,20 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .cabecera__logo {
+    width: 80px;
+    border-radius: 100%;
+  }
   .cabecera__derecha {
     height: 115px;
   }
   .cabecera__izquierda {
     height: 115px;
     justify-content: center;
+  }
+  .cabecera__derecha,
+  .cabecera__derecha {
+    height: 115px;
   }
   .cabecera__logo {
     width: 70px;
