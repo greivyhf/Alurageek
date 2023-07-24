@@ -5,44 +5,43 @@
   width: calc(100% - 6.5rem);
   align-items: center;
 }
+.input::placeholder {
+  visibility: hidden;
+}
 .login__input {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25rem;
   color: #464646;
   width: 100%;
-  height: 30px;
-  font-weight: 400;
-  color: #464646;
-  border: none;
+  border-bottom: 1px solid #716f6f;
   border-radius: 0.25rem;
-  border-bottom: 1px solid #c8c8c8;
-  padding-top: 1rem;
-  padding-left: 0.75rem;
-  margin: 0.5rem 0;
+  padding: 1.375rem 0.5rem 0.5rem;
+  border: none;
   outline: none; /* Para eliminar bordes de un input que muestra el navegador*/
 }
 .login__etiqueta {
   position: absolute;
-  left: 0.5rem;
-  top: 1.5rem;
+  top: 1.375rem;
+  left: 0.25rem;
   font-size: 1rem;
   font-weight: 400;
   color: #464646;
   transition: all 0.3s ease;
 }
+#input__email:not(:placeholder-shown) + .login__etiqueta,
 .login__input:focus + .login__etiqueta {
-  margin-top: -10px;
+  margin-top: -15px;
   font-size: 0.75rem;
   font-weight: 400;
   color: #a2a2a2;
 }
 .login__input:valid + .login__etiqueta {
-  margin-top: -10px;
+  margin-top: -15px;
   font-size: 0.75rem;
   font-weight: 400;
   color: #a2a2a2;
 }
+
 .login__input:-webkit-autofill,
 .login__input:-webkit-autofill:hover,
 .login__input:-webkit-autofill:focus {

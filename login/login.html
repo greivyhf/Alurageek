@@ -50,20 +50,25 @@
         <main class="contenido ">
 
             <section class="login ">
-                <div class="login__contenedorPrincipal color__fondo">
-                    <p class="login__titulo">Iniciar Sesion</p>
-                    <div class="login__containerInput">
-                        <input id="input__email" class="login__input" type="email" required>
-                        <label class="login__etiqueta" for="input__email">Correo electronico</label>
+                <form>
+                    <div class="login__contenedorPrincipal color__fondo">
+                        <p class="login__titulo">Iniciar Sesión</p>
+                        <div class="login__containerInput">
+                            <input name="email" id="input__email" class="login__input input" type="email"
+                                placeholder="Correo" required>
+                            <label class="login__etiqueta" for="input__email">Correo electrónico</label>
+                        </div>
+                        <div class="login__containerInput">
+                            <input name="password" id="input__password" class="login__input input" type="password"
+                                placeholder="Contraseña" required
+                                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$">
+                            <label class="login__etiqueta" for="input__password">Contraseña</label>
+                        </div>
+                        <div class="login__containerBoton">
+                            <button class="login__boton" href="">Entrar</button>
+                        </div>
                     </div>
-                    <div class="login__containerInput">
-                        <input id="input__password" class="login__input" type="password" required>
-                        <label class="login__etiqueta" for="input__password">Contrasenia</label>
-                    </div>
-                    <div class="login__containerBoton">
-                        <a class="login__boton" href="">Entrar</a>
-                    </div>
-                </div>
+                </form>
             </section>
 
 
@@ -82,19 +87,21 @@
                     </ul>
                 </div>
                 <div class="contacto seccion">
-                    <h3 class="contacto__titulo">Hable con nosotros</h3>
-                    <div class="contacto cont__relativo">
-                        <input id="contacto__nombre" type="name" class="contacto__nombre" required>
-                        <label class="contacto__etiqueta" for="contacto__nombre">Nombre</label>
-                    </div>
-                    <div class="contacto cont__relativo">
-                        <textarea class="contacto__mensaje" name="" id="contacto__mensaje" cols="30" rows="10"
-                            required></textarea>
-                        <label class="contacto__etiqueta" for="contacto__mensaje">Escribe tu mensaje</label>
-                    </div>
-                    <div class="boton">
-                        <a href="#" class="boton__enviar">Enviar mensaje</a>
-                    </div>
+                    <form action="">
+                        <h3 class="contacto__titulo">Hable con nosotros</h3>
+                        <div class="contacto cont__relativo">
+                            <input id="contacto__nombre" type="name" class="contacto__nombre" required>
+                            <label class="contacto__etiqueta" for="contacto__nombre">Nombre</label>
+                        </div>
+                        <div class="contacto cont__relativo">
+                            <textarea class="contacto__mensaje" name="" id="contacto__mensaje" cols="30" rows="10"
+                                required></textarea>
+                            <label class="contacto__etiqueta" for="contacto__mensaje">Escribe tu mensaje</label>
+                        </div>
+                        <div class="boton">
+                            <button class="boton__enviar">Enviar mensaje</button>
+                        </div>
+                    </form>
                 </div>
 
             </div>
