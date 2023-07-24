@@ -24,7 +24,7 @@
 }
 .login__etiqueta {
   position: absolute;
-  left: 0.75rem;
+  left: 0.5rem;
   top: 1.5rem;
   font-size: 1rem;
   font-weight: 400;
@@ -32,13 +32,13 @@
   transition: all 0.3s ease;
 }
 .login__input:focus + .login__etiqueta {
-  margin-top: -20px;
+  margin-top: -10px;
   font-size: 0.75rem;
   font-weight: 400;
   color: #a2a2a2;
 }
 .login__input:valid + .login__etiqueta {
-  margin-top: -20px;
+  margin-top: -10px;
   font-size: 0.75rem;
   font-weight: 400;
   color: #a2a2a2;
