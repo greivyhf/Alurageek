@@ -31,6 +31,7 @@
   margin: 0.25rem 0;
   line-height: normal;
 }
+
 @media screen and (min-width: 768px) {
   .articulo__link {
     font-size: 1rem;
