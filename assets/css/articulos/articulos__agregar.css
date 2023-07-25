@@ -55,12 +55,14 @@
   font-weight: 400;
   color: #a2a2a2;
 }
+#agregar__file:not(:placeholder-shown) + .agregar__etiqueta,
 .agregar__input:valid + .agregar__etiqueta {
   margin-top: -15px;
   font-size: 0.75rem;
   font-weight: 400;
   color: #a2a2a2;
 }
+
 .agregar__input:-webkit-autofill,
 .agregar__input:-webkit-autofill:hover,
 .agregar__input:-webkit-autofill:focus {
@@ -86,13 +88,29 @@
 }
 
 @media screen and (min-width: 768px) {
-  .login__containerInput {
-    width: 261px;
-    margin: 0.25rem 0;
+  #contenido {
+    margin: 0;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1440px) {
-  .login__containerInput {
-    width: 400px;
+  .agregar__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .agregar__contenedor {
+    display: flex;
+    width: 544px;
+  }
+  .articulo__header {
+    text-align: center;
+  }
+  .titulo__header {
+    font-size: 2rem;
+  }
+  .agregar__boton {
+    width: 560px;
   }
 }
