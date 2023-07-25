@@ -1,0 +1,98 @@
+.articulo__header {
+  display: flex;
+  flex-direction: column;
+}
+.titulo__header {
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  color: #464646;
+  padding-left: 0.5rem;
+  margin: 0;
+}
+.agregar__contenedor {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: calc(100% - 2rem);
+  align-items: center;
+  margin: 1rem 1rem;
+}
+#agregar__contenedor {
+  margin: 1rem 0.25rem;
+  width: calc(100% - 0.75rem);
+}
+.input::placeholder {
+  visibility: hidden;
+}
+.agregar__input {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+  width: 100%;
+  height: 26px;
+  border-bottom: 1px solid #716f6f;
+  border-radius: 0.25rem;
+  padding: 1.3125rem 0.5rem 0.5rem;
+  border: none;
+  outline: none; /* Para eliminar bordes de un input que muestra el navegador*/
+  border-bottom: 1px solid #c8c8c8;
+}
+.agregar__etiqueta {
+  position: absolute;
+  top: 1.51rem;
+  left: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #464646;
+  transition: all 0.3s ease;
+}
+.agregar__input:focus + .agregar__etiqueta {
+  margin-top: -15px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+.agregar__input:valid + .agregar__etiqueta {
+  margin-top: -15px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+.agregar__input:-webkit-autofill,
+.agregar__input:-webkit-autofill:hover,
+.agregar__input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 40rem #fff inset;
+}
+.agregar__input:-webkit-autofill {
+  -webkit-text-fill-color: #464646;
+  -webkit-background: #ffffff;
+}
+#agregar__textarea {
+  height: 52px;
+}
+.agregar__boton {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  margin: 0;
+  border: none;
+  color: #ffffff;
+  background-color: #2a7ae4;
+}
+
+@media screen and (min-width: 768px) {
+  .login__containerInput {
+    width: 261px;
+    margin: 0.25rem 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .login__containerInput {
+    width: 400px;
+  }
+}

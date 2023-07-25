@@ -36,6 +36,15 @@
   font-weight: 600;
   line-height: normal;
 }
+.cabecera__botonAdmin {
+  color: #2a7ae4;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #2a7ae4;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: normal;
+}
 .cabecera__boton--hidden {
   display: none;
 }
